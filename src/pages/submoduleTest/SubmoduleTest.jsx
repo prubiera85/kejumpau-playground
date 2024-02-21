@@ -16,7 +16,7 @@ const SubmoduleTest = () => {
         >
           ⬅️ Back
         </div>
-        <div className="submodule-page__title">Tests submódulo</div>
+        <div className="submodule-page__title">Tests submódulo newest</div>
       </div>
       <div className="submodule-page__content">
         <TestButton />
