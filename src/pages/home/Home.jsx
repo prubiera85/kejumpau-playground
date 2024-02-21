@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <div className="home-page">
-      <div className="home-page__title">Kejumpau Playground</div>
+      <div className="home-page__title">Kejumpau Playground QA</div>
       <div
         className="home-page__link"
         onClick={() => {
