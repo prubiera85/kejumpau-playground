@@ -3,9 +3,14 @@ $header-title-text-color: #ffffff;
 $header-title-link-color: #ffffff;
 $header-title-link-hover-color: #00A6ED;
 
+$content-bg-color:#f2f5fa;
+
 .submodule-page {
   display: flex;
   flex-direction: column;
+  background-color: red;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 .submodule-page__header {
@@ -40,4 +45,10 @@ $header-title-link-hover-color: #00A6ED;
   &:hover {
     color: $header-title-link-hover-color;
   }
+}
+
+.submodule-page__content {
+  flex-grow: 1;
+  background-color: $content-bg-color;
+  padding: 2em;
 }
